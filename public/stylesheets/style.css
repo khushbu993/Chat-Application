@@ -12,10 +12,10 @@
   --secondary: #11141f;
   --tertiary: #1f222e;
   --dark: #0e0e12;
-  --green: #52d794;
-  --blue: #00b3bd;
+  --violet: #b772e6;
+  --pink: #bd0058;
   --light: #fff;
-  --red: indianred;
+  --red: #b90000;
 }
 
 /* common global styles */
@@ -33,7 +33,7 @@ body {
 
 html {
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(to right, var(--green) 0%, var(--blue) 100%);
+  background: linear-gradient(to right, var(--violet) 0%, var(--pink) 100%);
   font-size: 10px;
 }
 
@@ -78,7 +78,7 @@ input.error {
 input[type="submit"] {
   margin: 2rem auto;
   width: 200px;
-  background: linear-gradient(to right, var(--green), var(--blue));
+  background: linear-gradient(to right, var(--violet), var(--pink));
   cursor: pointer;
   font-weight: 600;
   transition: transform 0.1s ease-in-out;
@@ -113,7 +113,7 @@ input[type="submit"]:active {
   border: 3px solid;
   border-image-slice: 1;
   border-width: 3px;
-  border-image-source: linear-gradient(to left, var(--green), var(--blue));
+  border-image-source: linear-gradient(to left, var(--violet), var(--pink));
 }
 
 .modal .modal-title {
@@ -272,7 +272,7 @@ input[type="submit"]:active {
   width: 40px;
   height: 40px;
   border-radius: 100%;
-  border: 2px solid var(--blue);
+  border: 2px solid var(--pink);
 }
 
 .title-text {
@@ -405,14 +405,14 @@ input[type="submit"]:active {
 }
 
 .you-message .message-text {
-  background: var(--green);
+  background: var(--violet);
   color: var(--dark);
   border: 2px solid var(--dark);
   border-radius: 14px 14px 0 14px;
 }
 
 .other-message .message-text {
-  background: var(--blue);
+  background: var(--pink);
   color: #111;
   border: 2px solid var(--dark);
   border-radius: 14px 14px 0 14px;
@@ -602,7 +602,7 @@ input[type="submit"]:active {
 }
 
 #users-table thead tr {
-  background-color: var(--green);
+  background-color: var(--violet);
   color: var(--primary);
   text-align: left;
 }
@@ -633,7 +633,7 @@ input[type="submit"]:active {
   width: 40px;
   height: 40px;
   border-radius: 100%;
-  border: 2px solid var(--blue);
+  border: 2px solid var(--pink);
 }
 
 #users-table tbody .name span {
@@ -645,7 +645,7 @@ input[type="submit"]:active {
 }
 
 #users-table tbody tr:last-of-type {
-  border-bottom: 2px solid var(--green);
+  border-bottom: 2px solid var(--violet);
 }
 
 #users-table .manage img {
@@ -692,8 +692,8 @@ input[type="submit"]:active {
   font-size: 14px !important;
   background: -webkit-linear-gradient(
     to right,
-    var(--green) 0%,
-    var(--blue) 100%
+    var(--violet) 0%,
+    var(--pink) 100%
   );
-  background: linear-gradient(to right, var(--green) 0%, var(--blue) 100%);
+  background: linear-gradient(to right, var(--violet) 0%, var(--pink) 100%);
 }
